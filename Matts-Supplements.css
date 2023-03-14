@@ -1,0 +1,143 @@
+body {
+    background-color: #ec0c0c;
+    color: #0f0f0f;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-image: linear-gradient(to bottom, #f5eeee, #ca4b4b);
+    background-attachment: fixed;
+}
+
+header {
+    /*configure background*/
+    background-color: #79899e;
+    background-repeat: no-repeat;
+    color: #161414;
+    text-align: center;
+    color: #0f0f0f
+}
+
+header a {
+    text-decoration: none;
+    color: black;
+}
+
+header a:link {
+    color: black;
+}
+
+header a:visited {
+    color: black
+}
+
+header a:hover {
+    color: #f5eeee;
+}
+
+nav {
+    font-weight: bold;
+    padding: 1em;
+    float: left;
+    font-size: 1.2em;
+    width: 160px;
+}
+
+nav a {
+    text-decoration: none;
+    display: block;
+
+}
+
+nav a:link {
+    color: #bd3440;
+}
+
+nav a:visited {
+    color: #e40707;
+}
+
+nav a:hover {
+    color: #f3f2f2;
+    transition: background-color 2s linear;
+    background-color: #c1c0ec;
+}
+
+
+main {
+    margin-left: 190px;
+    padding: 1px 10px 150px 50px;
+    display: block;
+    background-color: rgb(209, 176, 176);
+}
+
+
+
+h1 {
+    margin-bottom: 1px;
+    margin-top: 1px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 3em;
+    letter-spacing: 0.10em;
+    background-color: #cc7474
+}
+
+section {
+    margin-left: 190px;
+    padding-left: 2em;
+    padding-right: 2em;
+    width: 75%;
+    justify-content: center;
+    text-align: center;
+    display: block;
+}
+
+footer {
+    padding: 1em;
+    text-align: center;
+    margin-left: 190px;
+
+}
+
+label {
+    float: left;
+    display: block;
+    text-align: right;
+    width: 140px;
+    padding-right: 5px;
+}
+
+textarea {
+    display: block;
+    margin-bottom: 20px;
+}
+
+input {
+    display: block;
+    margin-bottom: 20px;
+}
+
+input[type="submit"] {
+    margin-left: 140px;
+}
+
+table {
+    border: 2px solid #cc7474;
+    border-collapse: collapse;
+
+}
+
+td,
+th {
+    border: 2px solid #e62f2f;
+    padding: 0.5em
+}
+
+td {
+    text-align: center;
+}
+
+.text {
+    text-align: center;
+}
+
+tr:nth-of-type(odd) {
+    background-color: #cc7474
+}
